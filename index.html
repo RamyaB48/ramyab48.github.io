@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramya Bagepalli - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Ramya Bagepalli</h2>
+            </div>
+            <div class="theme-toggle">
+                <button id="themeToggle" class="theme-toggle-btn">
+                    <i class="fas fa-sun" id="themeIcon"></i>
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#timeline" class="nav-link">Timeline</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#extracurriculars" class="nav-link">Extracurriculars</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Ramya Bagepalli</span></h1>
+                <p class="hero-subtitle">AI Engineer</p>
+                <p class="hero-description">
+                    I am Computer Science graduate currently pursing my MSc in Artificial Intelligence at the University of Southampton.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/RamyaB48" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/ramyab4803" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:ramyab4803@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="Images/IMG_0014_Original.jpg" alt="Ramya Bagepalli">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm Ramya Bagepalli </h3>
+                    <p>
+                        I’m a tech enthusiast with a strong foundation in machine learning, web development, and data-driven systems. My work blends logic and creativity — from developing intelligent solutions to exploring how technology can make a real-world impact.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, 
+                        contributing to open source projects, or sharing knowledge with 
+                        the developer community.
+                    </p>
+                    <div class="skills">
+                        <h4>Technical Skills</h4>
+                        <div class="skills-categories">
+                            <div class="skill-category">
+                                <h5>Programming Languages</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">Java</span>
+                                    <span class="skill-tag">C++</span>
+                                    <span class="skill-tag">C</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h5>AI & Machine Learning Frameworks</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">TensorFlow</span>
+                                    <span class="skill-tag">Keras</span>
+                                    <span class="skill-tag">PyTorch</span>
+                                    <span class="skill-tag">Scikit-learn</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h5>Deep Learning & Computer Vision</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">OpenCV</span>
+                                    <span class="skill-tag">CNNs</span>
+                                    <span class="skill-tag">RNNs</span>
+                                    <span class="skill-tag">Transfer Learning</span>
+                                    <span class="skill-tag">Image Processing</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h5>Data Science & Analytics</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">NumPy</span>
+                                    <span class="skill-tag">Pandas</span>
+                                    <span class="skill-tag">Matplotlib</span>
+                                    <span class="skill-tag">Seaborn</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h5>Natural Language Processing</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">NLTK</span>
+                                    <span class="skill-tag">spaCy</span>
+                                    <span class="skill-tag">Transformers</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h5>Model Deployment & MLOps</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Flask</span>
+                                    <span class="skill-tag">FastAPI</span>
+                                    <span class="skill-tag">Docker</span>
+                                    <span class="skill-tag">AWS</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h5>Databases</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">MySQL</span>
+                                    <span class="skill-tag">Firebase</span>
+                                    <span class="skill-tag">MongoDB</span>
+                                    <span class="skill-tag">NoSQL</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h5>Tools & Environments</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Git</span>
+                                    <span class="skill-tag">Jupyter Notebook</span>
+                                    <span class="skill-tag">Google Colab</span>
+                                    <span class="skill-tag">VS Code</span>
+                                    <span class="skill-tag">Cursor</span>
+                                    <span class="skill-tag">Anaconda</span>
+                                    <span class="skill-tag">Hugging Face</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Projects </p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>2+</h3>
+                        <p>Publications</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>25+</h3>
+                        <p>Certifications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/6366f1/ffffff?text=Forensic+Face+Illustrations" alt="Forensic Face Illustrations">
+                    </div>
+                    <div class="project-content">
+                        <h3>Crafting and Interpreting Forensic Face Illustrations</h3>
+                        <p class="project-year">2025</p>
+                        <p>Developed a two-part forensic facial illustration system comprising a sketch recognition module that matches uploaded sketches with a facial database using image processing. Built a face crafting tool enabling users to create composite faces from verbal descriptions using modular facial features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/10b981/ffffff?text=Plant+Disease+Detection" alt="Plant Disease Detection">
+                    </div>
+                    <div class="project-content">
+                        <h3>Plant Disease Detection</h3>
+                        <p class="project-year">2024</p>
+                        <p>Developed a machine learning model to detect and classify plant diseases from leaf images using convolutional neural networks (CNN). Implemented preprocessing and image augmentation techniques for improved accuracy and robustness.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/f59e0b/ffffff?text=Human+Emotion+Detection" alt="Human Emotion Detection">
+                    </div>
+                    <div class="project-content">
+                        <h3>Human Emotion Detection</h3>
+                        <p class="project-year">2024</p>
+                        <p>Designed a deep learning model to classify human emotions from facial expressions in images and videos. Utilized CNN architectures for feature extraction and emotion categorization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education & Experience</h2>
+                <p class="section-subtitle">My journey so far</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sept 2025 – Sept 2026</div>
+                        <h3>MSc in Artificial Intelligence</h3>
+                        <h4>University of Southampton</h4>
+                        <p><strong>Coursework:</strong> Machine Learning Technologies, Deep Learning Technologies, Computer Vision, Image Processing, NLP, Intelligent Agents</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Dec 2021 – July 2025</div>
+                        <h3>B.E. in Computer Science and Engineering with Honors</h3>
+                        <h4>Global Academy of Technology</h4>
+                        <p><strong>CGPA:</strong> 8.88/10.0<br><strong>Coursework:</strong> Operating Systems, Software Engineering, Data Structures, Computer Networks, Big Data Analytics, AI ML, Ethical Hacking, Digital Image Processing, Human Computer Interaction</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <h3>AI and IOT Engineer Intern</h3>
+                        <h4>Sathyalogy Solutions Ltd., Bangalore, India</h4>
+                        <p>Worked on projects related to sensor integrations, machine learning deployment and automation solutions in IOT deployment.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3>Cyber Security Intern</h3>
+                        <h4>Ace Designers Ltd., Bangalore, India</h4>
+                        <p>Conducted Vulnerability Assessment and Penetration Testing on various networks, IP addresses, and websites to identify various potential security weaknesses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-subtitle">Professional certifications and achievements</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Programming using Java</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Mar 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Machine Learning Foundation</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Aug 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Machine Learning with Python</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Aug 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Java Foundation Certificate</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Aug 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Python Data Analyst</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Aug 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Industry 4.0 and Industrial IoT</h3>
+                        <p class="certification-issuer">VTU Center for Online Education</p>
+                        <p class="certification-date">Dec 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>The Joy of Computing using Python</h3>
+                        <p class="certification-issuer">VTU Center for Online Education</p>
+                        <p class="certification-date">July 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Introduction to Machine Learning</h3>
+                        <p class="certification-issuer">VTU Center for Online Education</p>
+                        <p class="certification-date">July 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Cloud Computing</h3>
+                        <p class="certification-issuer">VTU Center for Online Education</p>
+                        <p class="certification-date">Dec 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>AI Search Methods for Problem Solving</h3>
+                        <p class="certification-issuer">IIT Madras</p>
+                        <p class="certification-date">Dec 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Natural Language Processing</h3>
+                        <p class="certification-issuer">VTU Center for Online Education</p>
+                        <p class="certification-date">Dec 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Image Processing OnRamp</h3>
+                        <p class="certification-issuer">MathWorks</p>
+                        <p class="certification-date">Jan 2025</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Data Science Foundation</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Aug 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Data Science Certificate</h3>
+                        <p class="certification-issuer">InternShala</p>
+                        <p class="certification-date">Jan 2023</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-file-excel"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Excel using AI</h3>
+                        <p class="certification-issuer">Office Master</p>
+                        <p class="certification-date">Sep 2025</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Fundamentals of Cryptography</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Feb 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Fundamentals of Information Security</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Feb 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Machine Learning with Python</h3>
+                        <p class="certification-issuer">Verzeo Microsoft</p>
+                        <p class="certification-date">Aug-Sep 2022</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Introduction to Cybersecurity</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Feb 2025</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Learning MongoDB Schema, Indexes and Queries</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Aug 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Linux Bash Scripting Training</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Aug 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>MATLAB OnRamp</h3>
+                        <p class="certification-issuer">MathWorks</p>
+                        <p class="certification-date">Dec 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Network Fundamentals</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Feb 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Cybersecurity Fundamentals</h3>
+                        <p class="certification-issuer">Infosys Springboard</p>
+                        <p class="certification-date">Feb 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Progressive Training Certificate</h3>
+                        <p class="certification-issuer">Talent Ease</p>
+                        <p class="certification-date">Mar 2023</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Certificate of Appreciation</h3>
+                        <p class="certification-issuer">REVA University</p>
+                        <p class="certification-date">Mar 2025</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Project Prismatica - Cybersecurity</h3>
+                        <p class="certification-issuer">Secure Tech and Reverse Engineering</p>
+                        <p class="certification-date">Mar 2024</p>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Hack-A-League 2.0</h3>
+                        <p class="certification-issuer">Participation Certificate</p>
+                        <p class="certification-date">Feb 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extracurriculars Section -->
+    <section id="extracurriculars" class="extracurriculars">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Extracurriculars</h2>
+                <p class="section-subtitle">Beyond the code</p>
+            </div>
+            <div class="extracurriculars-grid">
+                <div class="extracurricular-card">
+                    <div class="extracurricular-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>National Level Sports Player</h3>
+                    <p>National level Netball and Cestoball player, serving as GAT Sports Ambassador. Represented institution at national competitions and promoted sports culture.</p>
+                </div>
+
+                <div class="extracurricular-card">
+                    <div class="extracurricular-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Event Coordinator</h3>
+                    <p>Coordinated technical, sports, and cultural fests at institutional level. Managed large-scale events, logistics, and team coordination for successful execution.</p>
+                </div>
+
+                <div class="extracurricular-card">
+                    <div class="extracurricular-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Mentor and Tutor</h3>
+                    <p>Mentor and tutor for undergraduate students aiming for higher studies. Provided guidance through Topmate platform, helping students achieve their academic goals.</p>
+                </div>
+
+                <div class="extracurricular-card">
+                    <div class="extracurricular-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Social Volunteer</h3>
+                    <p>Educated students of underprivileged rural schools, conducted awareness programs on hygiene, cleanliness in rural areas, and rainwater harvesting in urban areas. Organized food packing and reservation guidance initiatives.</p>
+                </div>
+
+                <div class="extracurricular-card">
+                    <div class="extracurricular-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Hackathon Participant</h3>
+                    <p>Active participant in various hackathons, applying technical skills to solve real-world problems and collaborating with diverse teams to develop innovative solutions.</p>
+                </div>
+
+                <div class="extracurricular-card">
+                    <div class="extracurricular-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Language Learning</h3>
+                    <p>Continuously expanding linguistic skills by learning new languages including Hindi and Spanish. Embracing cultural diversity through language acquisition and cross-cultural communication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ramyab4803@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+44 77429 25816</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>London, UK</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <div>
+                            <h4>Mentorship</h4>
+                            <p><a href="https://topmate.io/ramya_b16/" target="_blank" style="color: var(--accent-color); text-decoration: none;">topmate.io/ramya_b16/</a></p>
+                        </div>
+                    </div>
+
+                    <div class="resume-actions">
+                        <a href="#" class="btn btn-primary" id="viewResumeBtn">
+                            <i class="fas fa-eye"></i> View Resume
+                        </a>
+                        <a href="#" class="btn btn-secondary" id="downloadResumeBtn">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="social-section">
+                <h3>Follow Me</h3>
+                <div class="social-links-large">
+                    <a href="https://github.com/RamyaB48" target="_blank" class="social-link-large">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/ramyab4803" target="_blank" class="social-link-large">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:ramyab4803@gmail.com" class="social-link-large">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://instagram.com/Ramya_reshu48" target="_blank" class="social-link-large">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ramya Bagepalli. All rights reserved.</p>
+                <p>Built with ❤️ and modern web technologies</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="resumeFrame" src="resume.pdf" width="100%" height="600px"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
