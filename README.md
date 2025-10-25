@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Website
 
 A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
@@ -101,3 +102,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Contact
 
 For questions or support, please contact [your-email@example.com](mailto:your-email@example.com).
+=======
+# ramyab48.github.io
+My Portfolio Website
+>>>>>>> b0e15352f5461867c39ca7ed562197e35997cadc
