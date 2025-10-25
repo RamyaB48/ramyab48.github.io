@@ -119,8 +119,20 @@ if (viewResumeBtn) {
         
         // Ensure iframe loads the resume
         const iframe = document.getElementById('resumeFrame');
+        const fallback = document.getElementById('resumeFallback');
         if (iframe) {
+            iframe.style.display = 'block';
+            if (fallback) {
+                fallback.style.display = 'none';
+            }
             iframe.src = 'resume.pdf';
+            
+            // Set a timeout to show fallback if iframe doesn't load
+            setTimeout(() => {
+                if (iframe.contentDocument === null || iframe.contentDocument.body.innerHTML === '') {
+                    showResumeFallback();
+                }
+            }, 3000);
         }
     });
 }
@@ -132,6 +144,7 @@ if (downloadResumeBtn) {
         const link = document.createElement('a');
         link.href = 'resume.pdf';
         link.download = 'Ramya_Bagepalli_Resume.pdf';
+        link.target = '_blank';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
